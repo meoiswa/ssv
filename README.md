@@ -4,7 +4,7 @@ DotNet Core Console App to toggle Input Device "Listen through this device" betw
 
 ### What it does
 
-This program, on execution, reads the Toggle value from the registry, and invokes SoundVolumeView.exe with the arguments "/RunAsAdmin /SetPlaybackThroughDevice {Input} {Output}" using the value of OutputA or OutputB.
+This program, on execution, reads the Toggle value from the registry, and invokes SoundVolumeView.exe with the arguments `/RunAsAdmin /SetPlaybackThroughDevice "{Input}" "{Output}"` using the value of OutputA or OutputB.
 
 It's meant to be a fire-and-forget solution for quickly swapping Virtual Audio Cables between output devices.
 
